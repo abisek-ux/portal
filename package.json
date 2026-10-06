@@ -1,0 +1,17 @@
+{
+  "name": "skillbridge",
+  "version": "1.0.0",
+  "description": "SkillBridge - Portal for Academia-Industry collaboration (SIH26044)",
+  "scripts": {
+    "start": "node backend/scripts/start.js",
+    "seed": "cd backend && node seed.js",
+    "dev": "concurrently -n api,web -c blue,green \"cd backend && node --watch server.js\" \"cd frontend && npm run dev\"",
+    "dev:api": "cd backend && node --watch server.js",
+    "dev:web": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "license": "ISC"
+}

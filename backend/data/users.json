@@ -1,0 +1,150 @@
+[
+  {
+    "_id": "t8lkfcp3muk2okb7",
+    "skills": [
+      {
+        "name": "Ayurveda Pharmacology",
+        "level": "Advanced",
+        "years": 2
+      },
+      {
+        "name": "Herbal Medicine",
+        "level": "Intermediate",
+        "years": 2
+      },
+      {
+        "name": "Data Analytics",
+        "level": "Beginner",
+        "years": 1
+      }
+    ],
+    "interests": [
+      "Ayurveda",
+      "Pharmaceuticals",
+      "Research"
+    ],
+    "profileProgress": 0,
+    "phone": "9812345670",
+    "location": "Jaipur, Rajasthan",
+    "name": "Arjun Sharma",
+    "email": "student@demo.com",
+    "password": "$2a$10$zu.vhlIdeoABNQtWjIXZ5u6oSXUcfLrn/AMDYu.XQrJr.8uyr4w5C",
+    "role": "student",
+    "college": "National Institute of Ayurveda",
+    "branch": "BAMS",
+    "degree": "Bachelor of Ayurvedic Medicine",
+    "year": "3rd Year",
+    "createdAt": "2026-09-27T17:08:29.011Z",
+    "updatedAt": "2026-09-27T17:08:29.011Z"
+  },
+  {
+    "_id": "ds93ikd5muk2okd7",
+    "skills": [
+      {
+        "name": "Python",
+        "level": "Advanced",
+        "years": 3
+      },
+      {
+        "name": "Machine Learning",
+        "level": "Intermediate",
+        "years": 2
+      },
+      {
+        "name": "React.js",
+        "level": "Intermediate",
+        "years": 1
+      }
+    ],
+    "interests": [
+      "Software",
+      "AI",
+      "Analytics"
+    ],
+    "profileProgress": 0,
+    "phone": "",
+    "location": "Kochi, Kerala",
+    "name": "Priya Nair",
+    "email": "student2@demo.com",
+    "password": "$2a$10$vSty1O52f0IPurGw2Mm43eaGZ/l1UHU.vrYbFBgQJfxcJPS/TgE0m",
+    "role": "student",
+    "college": "St. Xavier College",
+    "branch": "Computer Science",
+    "degree": "B.Tech",
+    "year": "Final Year",
+    "createdAt": "2026-09-27T17:08:29.083Z",
+    "updatedAt": "2026-09-27T17:08:29.083Z"
+  },
+  {
+    "_id": "r19hxlepmuk2okf1",
+    "skills": [],
+    "interests": [],
+    "profileProgress": 0,
+    "phone": "",
+    "location": "New Delhi",
+    "name": "Dr. Meena Joshi",
+    "email": "faculty@demo.com",
+    "password": "$2a$10$pcF8HwFLd9Kg6YuHzGRsKOkzg3p/gZZ.SGDcIQZTPdj388ldG8492",
+    "role": "academician",
+    "institution": "All India Institute of Ayurveda",
+    "facultyDepartment": "Dravyaguna Vigyan",
+    "designation": "Associate Professor",
+    "expertise": [
+      "Ayurveda Pharmacology",
+      "Herbal Medicine",
+      "Clinical Research"
+    ],
+    "createdAt": "2026-09-27T17:08:29.149Z",
+    "updatedAt": "2026-09-27T17:08:29.149Z"
+  },
+  {
+    "_id": "gghaevolmuk2okgv",
+    "skills": [],
+    "interests": [],
+    "profileProgress": 0,
+    "phone": "",
+    "location": "Bengaluru, Karnataka",
+    "name": "Himalaya Wellness",
+    "email": "industry@demo.com",
+    "password": "$2a$10$DqjSZMxrkW6SmIDD/KuBJeRWTkG/AVeKb6JfLk3w5jJnqUD6Y4liW",
+    "role": "industry",
+    "company": "Himalaya Wellness",
+    "industrySector": "Pharmaceuticals",
+    "description": "Herbal healthcare company focused on Ayurveda-based wellness products.",
+    "website": "https://himalayawellness.in",
+    "createdAt": "2026-09-27T17:08:29.216Z",
+    "updatedAt": "2026-09-27T17:08:29.216Z"
+  },
+  {
+    "_id": "n1fstyn6muk2okiq",
+    "skills": [],
+    "interests": [],
+    "profileProgress": 0,
+    "phone": "",
+    "location": "Haridwar, Uttarakhand",
+    "name": "Patanjali Ayurved",
+    "email": "industry2@demo.com",
+    "password": "$2a$10$s9Exsgio5CUi1fdZu2Ce7u3mfbLjNvsPPkJun38QTSgkY5LSkTC.6",
+    "role": "industry",
+    "company": "Patanjali Ayurved",
+    "industrySector": "Pharmaceuticals & FMCG",
+    "description": "Ayurveda based FMCG and pharmaceutical company.",
+    "createdAt": "2026-09-27T17:08:29.282Z",
+    "updatedAt": "2026-09-27T17:08:29.282Z"
+  },
+  {
+    "_id": "kwk2hil2muk2okkn",
+    "skills": [],
+    "interests": [],
+    "profileProgress": 0,
+    "phone": "",
+    "location": "",
+    "name": "System Admin",
+    "email": "admin@demo.com",
+    "password": "$2a$10$X.OR1GsDyOmcXhSsQjkrCeXjHLnrcIghDU0SCrJxop1FlWmvKkmmi",
+    "role": "admin",
+    "institution": "SkillBridge Platform",
+    "createdAt": "2026-09-27T17:08:29.351Z",
+    "updatedAt": "2026-09-27T17:08:29.351Z"
+  }
+]

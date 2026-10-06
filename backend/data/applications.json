@@ -1,0 +1,37 @@
+[
+  {
+    "_id": "1k4096aqmuk2okmo",
+    "status": "Applied",
+    "progress": 0,
+    "feedback": "",
+    "rating": 0,
+    "relevantSkills": [
+      "Ayurveda Pharmacology",
+      "Herbal Medicine"
+    ],
+    "coverLetter": "I have 2 years of hands-on exposure in Ayurveda pharmacology and passion for herbal research.",
+    "internship": "y6g9c85gmuk2okmg",
+    "applicant": "t8lkfcp3muk2okb7",
+    "applicantType": "student",
+    "createdAt": "2026-09-27T17:08:29.424Z",
+    "updatedAt": "2026-09-27T17:08:29.424Z"
+  },
+  {
+    "_id": "1jirwfrrmuk2okmo",
+    "status": "Shortlisted",
+    "progress": 30,
+    "feedback": "Strong technical background. Scheduling technical round.",
+    "rating": 0,
+    "relevantSkills": [
+      "Data Analytics",
+      "Python",
+      "Machine Learning"
+    ],
+    "coverLetter": "Data analytics student with ML experience, eager to apply analytics in healthcare.",
+    "internship": "empewvkqmuk2okmi",
+    "applicant": "ds93ikd5muk2okd7",
+    "applicantType": "student",
+    "createdAt": "2026-09-27T17:08:29.424Z",
+    "updatedAt": "2026-09-27T17:08:29.424Z"
+  }
+]

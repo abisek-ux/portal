@@ -1,0 +1,104 @@
+[
+  {
+    "_id": "y6g9c85gmuk2okmg",
+    "status": "Open",
+    "isInternshipForAcademician": false,
+    "applicationsCount": 0,
+    "preferredSkills": [
+      "Dravya Guna (Herbal Properties)"
+    ],
+    "company": "gghaevolmuk2okgv",
+    "companyName": "Himalaya Wellness",
+    "title": "Ayurveda Research Intern",
+    "type": "Internship",
+    "description": "Work on formulation research for herbal wellness products. Assist senior pharmacologists in herb-drug interaction studies.",
+    "category": "Ayurveda",
+    "requiredSkills": [
+      "Ayurveda Pharmacology",
+      "Herbal Medicine"
+    ],
+    "stipend": "Rs. 12,000/month",
+    "duration": "3 months",
+    "location": "Bengaluru",
+    "mode": "Hybrid",
+    "seats": 3,
+    "createdAt": "2026-09-27T17:08:29.417Z",
+    "updatedAt": "2026-09-27T17:08:29.417Z"
+  },
+  {
+    "_id": "empewvkqmuk2okmi",
+    "status": "Open",
+    "isInternshipForAcademician": false,
+    "applicationsCount": 0,
+    "preferredSkills": [
+      "Python",
+      "Biostatistics"
+    ],
+    "company": "gghaevolmuk2okgv",
+    "companyName": "Himalaya Wellness",
+    "title": "Data Analytics Intern - Healthcare",
+    "type": "Internship",
+    "description": "Analyze clinical trial data and consumer health insights. Build dashboards for the R&D team.",
+    "category": "Analytics",
+    "requiredSkills": [
+      "Data Analytics"
+    ],
+    "stipend": "Rs. 10,000/month",
+    "duration": "2 months",
+    "location": "Remote",
+    "mode": "Remote",
+    "seats": 2,
+    "createdAt": "2026-09-27T17:08:29.418Z",
+    "updatedAt": "2026-09-27T17:08:29.418Z"
+  },
+  {
+    "_id": "v8e80iejmuk2okmi",
+    "status": "Open",
+    "isInternshipForAcademician": false,
+    "applicationsCount": 0,
+    "preferredSkills": [],
+    "company": "n1fstyn6muk2okiq",
+    "companyName": "Patanjali Ayurved",
+    "title": "Herbal Quality Control Trainee",
+    "type": "Apprenticeship",
+    "description": "Learn pharmacognosy and quality testing of herbal raw materials in our state-of-the-art lab.",
+    "category": "Ayurveda",
+    "requiredSkills": [
+      "Ayurveda Pharmacology",
+      "Herbal Medicine"
+    ],
+    "stipend": "Rs. 8,000/month",
+    "duration": "6 months",
+    "location": "Haridwar",
+    "mode": "On-site",
+    "seats": 5,
+    "createdAt": "2026-09-27T17:08:29.418Z",
+    "updatedAt": "2026-09-27T17:08:29.418Z"
+  },
+  {
+    "_id": "st0jj39hmuk2okmj",
+    "status": "Open",
+    "isInternshipForAcademician": true,
+    "applicationsCount": 0,
+    "preferredSkills": [
+      "Clinical Research"
+    ],
+    "company": "n1fstyn6muk2okiq",
+    "companyName": "Patanjali Ayurved",
+    "title": "Faculty Industrial Training - Dravyaguna",
+    "type": "Internship",
+    "description": "Two-week industrial immersion for Ayurveda faculty to observe modern extraction, QC and manufacturing processes.",
+    "category": "Ayurveda",
+    "requiredSkills": [
+      "Ayurveda Pharmacology"
+    ],
+    "stipend": "Unpaid (TA/DA provided)",
+    "duration": "2 weeks",
+    "location": "Haridwar",
+    "mode": "On-site",
+    "academicProgramType": "FDP",
+    "seats": 10,
+    "createdAt": "2026-09-27T17:08:29.419Z",
+    "updatedAt": "2026-09-27T17:08:29.419Z"
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "_id": "x493jllfmuk2okmk",
+    "status": "Open",
+    "enrolledStudents": [],
+    "skillsCovered": [
+      "Ayurveda Pharmacology",
+      "Herbal Medicine"
+    ],
+    "company": "gghaevolmuk2okgv",
+    "companyName": "Himalaya Wellness",
+    "title": "Certification in Ayurvedic Product Development",
+    "type": "Certification Course",
+    "description": "Learn the complete lifecycle of Ayurveda product development from raw herb to finished formulation.",
+    "duration": "8 weeks",
+    "cost": "Free",
+    "maxSeats": 200,
+    "createdAt": "2026-09-27T17:08:29.420Z",
+    "updatedAt": "2026-09-27T17:08:29.420Z"
+  },
+  {
+    "_id": "22dx5yzwmuk2okmk",
+    "status": "Open",
+    "enrolledStudents": [],
+    "skillsCovered": [
+      "Dravya Guna (Herbal Properties)",
+      "Ayurveda Pharmacology"
+    ],
+    "company": "n1fstyn6muk2okiq",
+    "companyName": "Patanjali Ayurved",
+    "title": "Workshop: Pharmacognosy & Herb Quality Testing",
+    "type": "Workshop",
+    "description": "Hands-on virtual workshop covering macroscopic & microscopic herb identification.",
+    "duration": "1 week",
+    "cost": "Free",
+    "maxSeats": 150,
+    "createdAt": "2026-09-27T17:08:29.420Z",
+    "updatedAt": "2026-09-27T17:08:29.420Z"
+  },
+  {
+    "_id": "ew1mnuqemuk2okml",
+    "status": "Open",
+    "enrolledStudents": [],
+    "skillsCovered": [
+      "Data Analytics",
+      "Machine Learning"
+    ],
+    "company": "gghaevolmuk2okgv",
+    "companyName": "Himalaya Wellness",
+    "title": "Mentorship Initiative: Careers in Healthcare Analytics",
+    "type": "Mentorship Initiative",
+    "description": "Get mentored 1:1 by data scientists working in healthcare analytics.",
+    "duration": "4 weeks",
+    "cost": "Free",
+    "maxSeats": 50,
+    "createdAt": "2026-09-27T17:08:29.421Z",
+    "updatedAt": "2026-09-27T17:08:29.421Z"
+  }
+]

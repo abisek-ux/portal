@@ -1,0 +1,416 @@
+[
+  {
+    "_id": "ionm1a48muk2okah",
+    "name": "Python",
+    "category": "Technical",
+    "description": "Python - an in-demand skill",
+    "relatedRoles": [
+      "Software Developer",
+      "Data Scientist",
+      "AI Engineer"
+    ],
+    "relatedIndustries": [
+      "IT Services",
+      "Fintech",
+      "Healthcare"
+    ],
+    "popularity": 60,
+    "createdAt": "2026-09-27T17:08:28.985Z",
+    "updatedAt": "2026-09-27T17:08:28.986Z"
+  },
+  {
+    "_id": "m1wqak96muk2okaj",
+    "name": "JavaScript",
+    "category": "Technical",
+    "description": "JavaScript - an in-demand skill",
+    "relatedRoles": [
+      "Web Developer",
+      "Full Stack Developer"
+    ],
+    "relatedIndustries": [
+      "IT Services",
+      "E-commerce",
+      "Media"
+    ],
+    "popularity": 63,
+    "createdAt": "2026-09-27T17:08:28.987Z",
+    "updatedAt": "2026-09-27T17:08:28.987Z"
+  },
+  {
+    "_id": "awr3d4drmuk2okaj",
+    "name": "React.js",
+    "category": "Technical",
+    "description": "React.js - an in-demand skill",
+    "relatedRoles": [
+      "Frontend Developer",
+      "Full Stack Developer"
+    ],
+    "relatedIndustries": [
+      "IT Services",
+      "E-commerce"
+    ],
+    "popularity": 66,
+    "createdAt": "2026-09-27T17:08:28.987Z",
+    "updatedAt": "2026-09-27T17:08:28.987Z"
+  },
+  {
+    "_id": "0el9oyc1muk2okak",
+    "name": "Node.js",
+    "category": "Technical",
+    "description": "Node.js - an in-demand skill",
+    "relatedRoles": [
+      "Backend Developer",
+      "Full Stack Developer"
+    ],
+    "relatedIndustries": [
+      "IT Services",
+      "Fintech"
+    ],
+    "popularity": 69,
+    "createdAt": "2026-09-27T17:08:28.988Z",
+    "updatedAt": "2026-09-27T17:08:28.988Z"
+  },
+  {
+    "_id": "iceowb3amuk2okam",
+    "name": "MongoDB",
+    "category": "Technical",
+    "description": "MongoDB - an in-demand skill",
+    "relatedRoles": [
+      "Database Administrator",
+      "Backend Developer"
+    ],
+    "relatedIndustries": [
+      "IT Services",
+      "Fintech"
+    ],
+    "popularity": 72,
+    "createdAt": "2026-09-27T17:08:28.990Z",
+    "updatedAt": "2026-09-27T17:08:28.990Z"
+  },
+  {
+    "_id": "dd5qar5cmuk2okan",
+    "name": "Data Analytics",
+    "category": "Analytics",
+    "description": "Data Analytics - an in-demand skill",
+    "relatedRoles": [
+      "Data Analyst",
+      "Business Analyst"
+    ],
+    "relatedIndustries": [
+      "Consulting",
+      "Retail",
+      "Banking"
+    ],
+    "popularity": 75,
+    "createdAt": "2026-09-27T17:08:28.991Z",
+    "updatedAt": "2026-09-27T17:08:28.991Z"
+  },
+  {
+    "_id": "hvtntm0zmuk2okao",
+    "name": "Machine Learning",
+    "category": "Analytics",
+    "description": "Machine Learning - an in-demand skill",
+    "relatedRoles": [
+      "ML Engineer",
+      "Data Scientist",
+      "AI Engineer"
+    ],
+    "relatedIndustries": [
+      "IT Services",
+      "Healthcare",
+      "Automotive"
+    ],
+    "popularity": 78,
+    "createdAt": "2026-09-27T17:08:28.992Z",
+    "updatedAt": "2026-09-27T17:08:28.992Z"
+  },
+  {
+    "_id": "jf19qdkrmuk2okao",
+    "name": "Deep Learning",
+    "category": "Analytics",
+    "description": "Deep Learning - an in-demand skill",
+    "relatedRoles": [
+      "AI Researcher",
+      "ML Engineer"
+    ],
+    "relatedIndustries": [
+      "Healthcare",
+      "IT Services"
+    ],
+    "popularity": 81,
+    "createdAt": "2026-09-27T17:08:28.992Z",
+    "updatedAt": "2026-09-27T17:08:28.992Z"
+  },
+  {
+    "_id": "o5e4hm61muk2okap",
+    "name": "Ayurveda Pharmacology",
+    "category": "Ayurveda",
+    "description": "Ayurveda Pharmacology - an in-demand skill",
+    "relatedRoles": [
+      "Ayurvedic Pharmacologist",
+      "Quality Analyst"
+    ],
+    "relatedIndustries": [
+      "Pharmaceuticals",
+      "Ayurveda Wellness"
+    ],
+    "popularity": 84,
+    "createdAt": "2026-09-27T17:08:28.993Z",
+    "updatedAt": "2026-09-27T17:08:28.993Z"
+  },
+  {
+    "_id": "gor57gipmuk2okaq",
+    "name": "Panchakarma Therapy",
+    "category": "Ayurveda",
+    "description": "Panchakarma Therapy - an in-demand skill",
+    "relatedRoles": [
+      "Ayurvedic Therapist",
+      "Wellness Consultant"
+    ],
+    "relatedIndustries": [
+      "Ayurveda Wellness",
+      "Healthcare"
+    ],
+    "popularity": 87,
+    "createdAt": "2026-09-27T17:08:28.994Z",
+    "updatedAt": "2026-09-27T17:08:28.994Z"
+  },
+  {
+    "_id": "ewoyn5bzmuk2okaq",
+    "name": "Herbal Medicine",
+    "category": "Ayurveda",
+    "description": "Herbal Medicine - an in-demand skill",
+    "relatedRoles": [
+      "Herbal Formulation Scientist",
+      "R&D Analyst"
+    ],
+    "relatedIndustries": [
+      "Pharmaceuticals",
+      "Ayurveda Wellness"
+    ],
+    "popularity": 90,
+    "createdAt": "2026-09-27T17:08:28.994Z",
+    "updatedAt": "2026-09-27T17:08:28.994Z"
+  },
+  {
+    "_id": "f63l54xfmuk2okar",
+    "name": "Dravya Guna (Herbal Properties)",
+    "category": "Ayurveda",
+    "description": "Dravya Guna (Herbal Properties) - an in-demand skill",
+    "relatedRoles": [
+      "Pharmacognosist",
+      "Ayurvedic Researcher"
+    ],
+    "relatedIndustries": [
+      "Pharmaceuticals",
+      "Labs"
+    ],
+    "popularity": 93,
+    "createdAt": "2026-09-27T17:08:28.995Z",
+    "updatedAt": "2026-09-27T17:08:28.995Z"
+  },
+  {
+    "_id": "orocizv3muk2okas",
+    "name": "Communication",
+    "category": "Communication",
+    "description": "Communication - an in-demand skill",
+    "relatedRoles": [
+      "Project Manager",
+      "Sales Executive",
+      "Consultant"
+    ],
+    "relatedIndustries": [
+      "All Industries"
+    ],
+    "popularity": 96,
+    "createdAt": "2026-09-27T17:08:28.996Z",
+    "updatedAt": "2026-09-27T17:08:28.996Z"
+  },
+  {
+    "_id": "k22scipkmuk2okat",
+    "name": "Public Speaking",
+    "category": "Communication",
+    "description": "Public Speaking - an in-demand skill",
+    "relatedRoles": [
+      "Trainer",
+      "Corporate Communicator"
+    ],
+    "relatedIndustries": [
+      "Education",
+      "Media"
+    ],
+    "popularity": 99,
+    "createdAt": "2026-09-27T17:08:28.997Z",
+    "updatedAt": "2026-09-27T17:08:28.997Z"
+  },
+  {
+    "_id": "fufsac8mmuk2okau",
+    "name": "Project Management",
+    "category": "Management",
+    "description": "Project Management - an in-demand skill",
+    "relatedRoles": [
+      "Project Manager",
+      "Product Manager"
+    ],
+    "relatedIndustries": [
+      "IT Services",
+      "Construction",
+      "Consulting"
+    ],
+    "popularity": 62,
+    "createdAt": "2026-09-27T17:08:28.998Z",
+    "updatedAt": "2026-09-27T17:08:28.998Z"
+  },
+  {
+    "_id": "mg6qtrfamuk2okaw",
+    "name": "Product Management",
+    "category": "Management",
+    "description": "Product Management - an in-demand skill",
+    "relatedRoles": [
+      "Product Manager",
+      "Program Manager"
+    ],
+    "relatedIndustries": [
+      "IT Services",
+      "Startups"
+    ],
+    "popularity": 65,
+    "createdAt": "2026-09-27T17:08:29.000Z",
+    "updatedAt": "2026-09-27T17:08:29.000Z"
+  },
+  {
+    "_id": "2iznlot0muk2okaw",
+    "name": "UI/UX Design",
+    "category": "Design",
+    "description": "UI/UX Design - an in-demand skill",
+    "relatedRoles": [
+      "UX Designer",
+      "Product Designer"
+    ],
+    "relatedIndustries": [
+      "IT Services",
+      "E-commerce"
+    ],
+    "popularity": 68,
+    "createdAt": "2026-09-27T17:08:29.000Z",
+    "updatedAt": "2026-09-27T17:08:29.000Z"
+  },
+  {
+    "_id": "wjnvc2lvmuk2okax",
+    "name": "Graphic Design",
+    "category": "Design",
+    "description": "Graphic Design - an in-demand skill",
+    "relatedRoles": [
+      "Graphic Designer",
+      "Creative Lead"
+    ],
+    "relatedIndustries": [
+      "Media",
+      "Marketing"
+    ],
+    "popularity": 71,
+    "createdAt": "2026-09-27T17:08:29.001Z",
+    "updatedAt": "2026-09-27T17:08:29.001Z"
+  },
+  {
+    "_id": "9912qq6dmuk2okay",
+    "name": "Clinical Research",
+    "category": "Research",
+    "description": "Clinical Research - an in-demand skill",
+    "relatedRoles": [
+      "Clinical Research Associate",
+      "Research Scientist"
+    ],
+    "relatedIndustries": [
+      "Pharmaceuticals",
+      "Biotech"
+    ],
+    "popularity": 74,
+    "createdAt": "2026-09-27T17:08:29.002Z",
+    "updatedAt": "2026-09-27T17:08:29.002Z"
+  },
+  {
+    "_id": "rkb1cye8muk2okb1",
+    "name": "Scientific Writing",
+    "category": "Research",
+    "description": "Scientific Writing - an in-demand skill",
+    "relatedRoles": [
+      "Medical Writer",
+      "Research Analyst"
+    ],
+    "relatedIndustries": [
+      "Pharmaceuticals",
+      "Publishing"
+    ],
+    "popularity": 77,
+    "createdAt": "2026-09-27T17:08:29.005Z",
+    "updatedAt": "2026-09-27T17:08:29.005Z"
+  },
+  {
+    "_id": "jqugo6dqmuk2okb2",
+    "name": "Community Medicine",
+    "category": "Healthcare",
+    "description": "Community Medicine - an in-demand skill",
+    "relatedRoles": [
+      "Public Health Officer",
+      "Epidemiologist"
+    ],
+    "relatedIndustries": [
+      "Healthcare",
+      "Public Health"
+    ],
+    "popularity": 80,
+    "createdAt": "2026-09-27T17:08:29.006Z",
+    "updatedAt": "2026-09-27T17:08:29.006Z"
+  },
+  {
+    "_id": "oms8m9rpmuk2okb4",
+    "name": "Biostatistics",
+    "category": "Analytics",
+    "description": "Biostatistics - an in-demand skill",
+    "relatedRoles": [
+      "Biostatistician",
+      "Data Scientist"
+    ],
+    "relatedIndustries": [
+      "Pharmaceuticals",
+      "Healthcare"
+    ],
+    "popularity": 83,
+    "createdAt": "2026-09-27T17:08:29.008Z",
+    "updatedAt": "2026-09-27T17:08:29.008Z"
+  },
+  {
+    "_id": "s8qgkojfmuk2okb5",
+    "name": "Entrepreneurship",
+    "category": "Management",
+    "description": "Entrepreneurship - an in-demand skill",
+    "relatedRoles": [
+      "Startup Founder",
+      "Business Owner"
+    ],
+    "relatedIndustries": [
+      "Startups"
+    ],
+    "popularity": 86,
+    "createdAt": "2026-09-27T17:08:29.009Z",
+    "updatedAt": "2026-09-27T17:08:29.009Z"
+  },
+  {
+    "_id": "18e86i2umuk2okb6",
+    "name": "Financial Analysis",
+    "category": "Finance",
+    "description": "Financial Analysis - an in-demand skill",
+    "relatedRoles": [
+      "Financial Analyst",
+      "Investment Banker"
+    ],
+    "relatedIndustries": [
+      "Banking",
+      "Consulting"
+    ],
+    "popularity": 89,
+    "createdAt": "2026-09-27T17:08:29.010Z",
+    "updatedAt": "2026-09-27T17:08:29.010Z"
+  }
+]

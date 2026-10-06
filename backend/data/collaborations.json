@@ -1,0 +1,54 @@
+[
+  {
+    "_id": "o67yl4kzmuk2okmm",
+    "status": "Approved",
+    "participants": [
+      "r19hxlepmuk2okf1"
+    ],
+    "startDate": "2026-09-27T17:08:29.422Z",
+    "title": "Joint Curriculum Design for BAMS IT Elective",
+    "type": "Joint Curriculum Design",
+    "description": "Industry and academia co-design an elective on digital health & informatics for BAMS students.",
+    "proposedBy": "gghaevolmuk2okgv",
+    "proposerName": "Himalaya Wellness",
+    "proposerRole": "industry",
+    "industryDept": "IT & R&D",
+    "createdAt": "2026-09-27T17:08:29.422Z",
+    "updatedAt": "2026-09-27T17:08:29.422Z"
+  },
+  {
+    "_id": "kamd183wmuk2okmm",
+    "status": "Ongoing",
+    "participants": [
+      "gghaevolmuk2okgv",
+      "n1fstyn6muk2okiq"
+    ],
+    "startDate": "2026-09-27T17:08:29.422Z",
+    "title": "Guest Lecture Series: Herbal R&D at Scale",
+    "type": "Guest Lecture",
+    "description": "Monthly guest lectures by industry R&D scientists for Ayurveda students and faculty.",
+    "proposedBy": "r19hxlepmuk2okf1",
+    "proposerName": "Dr. Meena Joshi",
+    "proposerRole": "academician",
+    "industryDept": "All India Institute of Ayurveda",
+    "createdAt": "2026-09-27T17:08:29.422Z",
+    "updatedAt": "2026-09-27T17:08:29.422Z"
+  },
+  {
+    "_id": "plesyoxfmuk2okmn",
+    "status": "Proposed",
+    "participants": [
+      "r19hxlepmuk2okf1"
+    ],
+    "startDate": null,
+    "title": "National Herbal Innovation Challenge 2026",
+    "type": "Innovation Challenge",
+    "description": "Students and faculty teams compete to solve real formulation challenges posed by industry.",
+    "proposedBy": "n1fstyn6muk2okiq",
+    "proposerName": "Patanjali Ayurved",
+    "proposerRole": "industry",
+    "industryDept": "R&D",
+    "createdAt": "2026-09-27T17:08:29.423Z",
+    "updatedAt": "2026-09-27T17:08:29.423Z"
+  }
+]

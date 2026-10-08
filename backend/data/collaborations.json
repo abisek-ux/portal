@@ -1,54 +1,54 @@
 [
   {
-    "_id": "o67yl4kzmuk2okmm",
+    "_id": "9crb0bm0muyu43sx",
     "status": "Approved",
     "participants": [
-      "r19hxlepmuk2okf1"
+      "5vmnb2o8muyu43lu"
     ],
-    "startDate": "2026-09-27T17:08:29.422Z",
+    "startDate": "2026-10-08T01:05:10.208Z",
     "title": "Joint Curriculum Design for BAMS IT Elective",
     "type": "Joint Curriculum Design",
     "description": "Industry and academia co-design an elective on digital health & informatics for BAMS students.",
-    "proposedBy": "gghaevolmuk2okgv",
+    "proposedBy": "5a0uzfp5muyu43ng",
     "proposerName": "Himalaya Wellness",
     "proposerRole": "industry",
     "industryDept": "IT & R&D",
-    "createdAt": "2026-09-27T17:08:29.422Z",
-    "updatedAt": "2026-09-27T17:08:29.422Z"
+    "createdAt": "2026-10-08T01:05:10.209Z",
+    "updatedAt": "2026-10-08T01:05:10.209Z"
   },
   {
-    "_id": "kamd183wmuk2okmm",
+    "_id": "aojs6jgtmuyu43sz",
     "status": "Ongoing",
     "participants": [
-      "gghaevolmuk2okgv",
-      "n1fstyn6muk2okiq"
+      "5a0uzfp5muyu43ng",
+      "7zcggnwwmuyu43oz"
     ],
-    "startDate": "2026-09-27T17:08:29.422Z",
+    "startDate": "2026-10-08T01:05:10.211Z",
     "title": "Guest Lecture Series: Herbal R&D at Scale",
     "type": "Guest Lecture",
     "description": "Monthly guest lectures by industry R&D scientists for Ayurveda students and faculty.",
-    "proposedBy": "r19hxlepmuk2okf1",
+    "proposedBy": "5vmnb2o8muyu43lu",
     "proposerName": "Dr. Meena Joshi",
     "proposerRole": "academician",
     "industryDept": "All India Institute of Ayurveda",
-    "createdAt": "2026-09-27T17:08:29.422Z",
-    "updatedAt": "2026-09-27T17:08:29.422Z"
+    "createdAt": "2026-10-08T01:05:10.211Z",
+    "updatedAt": "2026-10-08T01:05:10.211Z"
   },
   {
-    "_id": "plesyoxfmuk2okmn",
+    "_id": "hveokvq1muyu43t1",
     "status": "Proposed",
     "participants": [
-      "r19hxlepmuk2okf1"
+      "5vmnb2o8muyu43lu"
     ],
     "startDate": null,
     "title": "National Herbal Innovation Challenge 2026",
     "type": "Innovation Challenge",
     "description": "Students and faculty teams compete to solve real formulation challenges posed by industry.",
-    "proposedBy": "n1fstyn6muk2okiq",
+    "proposedBy": "7zcggnwwmuyu43oz",
     "proposerName": "Patanjali Ayurved",
     "proposerRole": "industry",
     "industryDept": "R&D",
-    "createdAt": "2026-09-27T17:08:29.423Z",
-    "updatedAt": "2026-09-27T17:08:29.423Z"
+    "createdAt": "2026-10-08T01:05:10.213Z",
+    "updatedAt": "2026-10-08T01:05:10.213Z"
   }
 ]

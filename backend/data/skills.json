@@ -1,6 +1,6 @@
 [
   {
-    "_id": "ionm1a48muk2okah",
+    "_id": "qgciee54muyu43h6",
     "name": "Python",
     "category": "Technical",
     "description": "Python - an in-demand skill",
@@ -15,11 +15,11 @@
       "Healthcare"
     ],
     "popularity": 60,
-    "createdAt": "2026-09-27T17:08:28.985Z",
-    "updatedAt": "2026-09-27T17:08:28.986Z"
+    "createdAt": "2026-10-08T01:05:09.786Z",
+    "updatedAt": "2026-10-08T01:05:09.787Z"
   },
   {
-    "_id": "m1wqak96muk2okaj",
+    "_id": "wr8c9edqmuyu43h9",
     "name": "JavaScript",
     "category": "Technical",
     "description": "JavaScript - an in-demand skill",
@@ -33,11 +33,11 @@
       "Media"
     ],
     "popularity": 63,
-    "createdAt": "2026-09-27T17:08:28.987Z",
-    "updatedAt": "2026-09-27T17:08:28.987Z"
+    "createdAt": "2026-10-08T01:05:09.789Z",
+    "updatedAt": "2026-10-08T01:05:09.789Z"
   },
   {
-    "_id": "awr3d4drmuk2okaj",
+    "_id": "ihxtl9yjmuyu43ha",
     "name": "React.js",
     "category": "Technical",
     "description": "React.js - an in-demand skill",
@@ -50,11 +50,11 @@
       "E-commerce"
     ],
     "popularity": 66,
-    "createdAt": "2026-09-27T17:08:28.987Z",
-    "updatedAt": "2026-09-27T17:08:28.987Z"
+    "createdAt": "2026-10-08T01:05:09.790Z",
+    "updatedAt": "2026-10-08T01:05:09.790Z"
   },
   {
-    "_id": "0el9oyc1muk2okak",
+    "_id": "wrviyjupmuyu43hc",
     "name": "Node.js",
     "category": "Technical",
     "description": "Node.js - an in-demand skill",
@@ -67,11 +67,11 @@
       "Fintech"
     ],
     "popularity": 69,
-    "createdAt": "2026-09-27T17:08:28.988Z",
-    "updatedAt": "2026-09-27T17:08:28.988Z"
+    "createdAt": "2026-10-08T01:05:09.792Z",
+    "updatedAt": "2026-10-08T01:05:09.792Z"
   },
   {
-    "_id": "iceowb3amuk2okam",
+    "_id": "h0amf8w6muyu43he",
     "name": "MongoDB",
     "category": "Technical",
     "description": "MongoDB - an in-demand skill",
@@ -84,11 +84,11 @@
       "Fintech"
     ],
     "popularity": 72,
-    "createdAt": "2026-09-27T17:08:28.990Z",
-    "updatedAt": "2026-09-27T17:08:28.990Z"
+    "createdAt": "2026-10-08T01:05:09.794Z",
+    "updatedAt": "2026-10-08T01:05:09.794Z"
   },
   {
-    "_id": "dd5qar5cmuk2okan",
+    "_id": "2q434838muyu43hg",
     "name": "Data Analytics",
     "category": "Analytics",
     "description": "Data Analytics - an in-demand skill",
@@ -102,11 +102,11 @@
       "Banking"
     ],
     "popularity": 75,
-    "createdAt": "2026-09-27T17:08:28.991Z",
-    "updatedAt": "2026-09-27T17:08:28.991Z"
+    "createdAt": "2026-10-08T01:05:09.796Z",
+    "updatedAt": "2026-10-08T01:05:09.796Z"
   },
   {
-    "_id": "hvtntm0zmuk2okao",
+    "_id": "a0j48eermuyu43hk",
     "name": "Machine Learning",
     "category": "Analytics",
     "description": "Machine Learning - an in-demand skill",
@@ -121,11 +121,11 @@
       "Automotive"
     ],
     "popularity": 78,
-    "createdAt": "2026-09-27T17:08:28.992Z",
-    "updatedAt": "2026-09-27T17:08:28.992Z"
+    "createdAt": "2026-10-08T01:05:09.800Z",
+    "updatedAt": "2026-10-08T01:05:09.800Z"
   },
   {
-    "_id": "jf19qdkrmuk2okao",
+    "_id": "sulfgpfkmuyu43hl",
     "name": "Deep Learning",
     "category": "Analytics",
     "description": "Deep Learning - an in-demand skill",
@@ -138,11 +138,11 @@
       "IT Services"
     ],
     "popularity": 81,
-    "createdAt": "2026-09-27T17:08:28.992Z",
-    "updatedAt": "2026-09-27T17:08:28.992Z"
+    "createdAt": "2026-10-08T01:05:09.801Z",
+    "updatedAt": "2026-10-08T01:05:09.801Z"
   },
   {
-    "_id": "o5e4hm61muk2okap",
+    "_id": "ku3a949bmuyu43hn",
     "name": "Ayurveda Pharmacology",
     "category": "Ayurveda",
     "description": "Ayurveda Pharmacology - an in-demand skill",
@@ -155,11 +155,11 @@
       "Ayurveda Wellness"
     ],
     "popularity": 84,
-    "createdAt": "2026-09-27T17:08:28.993Z",
-    "updatedAt": "2026-09-27T17:08:28.993Z"
+    "createdAt": "2026-10-08T01:05:09.803Z",
+    "updatedAt": "2026-10-08T01:05:09.803Z"
   },
   {
-    "_id": "gor57gipmuk2okaq",
+    "_id": "kbn2f13jmuyu43hp",
     "name": "Panchakarma Therapy",
     "category": "Ayurveda",
     "description": "Panchakarma Therapy - an in-demand skill",
@@ -172,11 +172,11 @@
       "Healthcare"
     ],
     "popularity": 87,
-    "createdAt": "2026-09-27T17:08:28.994Z",
-    "updatedAt": "2026-09-27T17:08:28.994Z"
+    "createdAt": "2026-10-08T01:05:09.805Z",
+    "updatedAt": "2026-10-08T01:05:09.805Z"
   },
   {
-    "_id": "ewoyn5bzmuk2okaq",
+    "_id": "ra4srmiamuyu43hr",
     "name": "Herbal Medicine",
     "category": "Ayurveda",
     "description": "Herbal Medicine - an in-demand skill",
@@ -189,11 +189,11 @@
       "Ayurveda Wellness"
     ],
     "popularity": 90,
-    "createdAt": "2026-09-27T17:08:28.994Z",
-    "updatedAt": "2026-09-27T17:08:28.994Z"
+    "createdAt": "2026-10-08T01:05:09.807Z",
+    "updatedAt": "2026-10-08T01:05:09.807Z"
   },
   {
-    "_id": "f63l54xfmuk2okar",
+    "_id": "xkqczgzlmuyu43ht",
     "name": "Dravya Guna (Herbal Properties)",
     "category": "Ayurveda",
     "description": "Dravya Guna (Herbal Properties) - an in-demand skill",
@@ -206,11 +206,11 @@
       "Labs"
     ],
     "popularity": 93,
-    "createdAt": "2026-09-27T17:08:28.995Z",
-    "updatedAt": "2026-09-27T17:08:28.995Z"
+    "createdAt": "2026-10-08T01:05:09.809Z",
+    "updatedAt": "2026-10-08T01:05:09.809Z"
   },
   {
-    "_id": "orocizv3muk2okas",
+    "_id": "ghll5g7nmuyu43hv",
     "name": "Communication",
     "category": "Communication",
     "description": "Communication - an in-demand skill",
@@ -223,11 +223,11 @@
       "All Industries"
     ],
     "popularity": 96,
-    "createdAt": "2026-09-27T17:08:28.996Z",
-    "updatedAt": "2026-09-27T17:08:28.996Z"
+    "createdAt": "2026-10-08T01:05:09.811Z",
+    "updatedAt": "2026-10-08T01:05:09.811Z"
   },
   {
-    "_id": "k22scipkmuk2okat",
+    "_id": "0653hxnxmuyu43hx",
     "name": "Public Speaking",
     "category": "Communication",
     "description": "Public Speaking - an in-demand skill",
@@ -240,11 +240,11 @@
       "Media"
     ],
     "popularity": 99,
-    "createdAt": "2026-09-27T17:08:28.997Z",
-    "updatedAt": "2026-09-27T17:08:28.997Z"
+    "createdAt": "2026-10-08T01:05:09.813Z",
+    "updatedAt": "2026-10-08T01:05:09.813Z"
   },
   {
-    "_id": "fufsac8mmuk2okau",
+    "_id": "ljqiwgvgmuyu43hz",
     "name": "Project Management",
     "category": "Management",
     "description": "Project Management - an in-demand skill",
@@ -258,11 +258,11 @@
       "Consulting"
     ],
     "popularity": 62,
-    "createdAt": "2026-09-27T17:08:28.998Z",
-    "updatedAt": "2026-09-27T17:08:28.998Z"
+    "createdAt": "2026-10-08T01:05:09.815Z",
+    "updatedAt": "2026-10-08T01:05:09.815Z"
   },
   {
-    "_id": "mg6qtrfamuk2okaw",
+    "_id": "obq0wrxnmuyu43i0",
     "name": "Product Management",
     "category": "Management",
     "description": "Product Management - an in-demand skill",
@@ -275,11 +275,11 @@
       "Startups"
     ],
     "popularity": 65,
-    "createdAt": "2026-09-27T17:08:29.000Z",
-    "updatedAt": "2026-09-27T17:08:29.000Z"
+    "createdAt": "2026-10-08T01:05:09.816Z",
+    "updatedAt": "2026-10-08T01:05:09.816Z"
   },
   {
-    "_id": "2iznlot0muk2okaw",
+    "_id": "egw42fmzmuyu43i2",
     "name": "UI/UX Design",
     "category": "Design",
     "description": "UI/UX Design - an in-demand skill",
@@ -292,11 +292,11 @@
       "E-commerce"
     ],
     "popularity": 68,
-    "createdAt": "2026-09-27T17:08:29.000Z",
-    "updatedAt": "2026-09-27T17:08:29.000Z"
+    "createdAt": "2026-10-08T01:05:09.818Z",
+    "updatedAt": "2026-10-08T01:05:09.818Z"
   },
   {
-    "_id": "wjnvc2lvmuk2okax",
+    "_id": "0ks4xrmxmuyu43i4",
     "name": "Graphic Design",
     "category": "Design",
     "description": "Graphic Design - an in-demand skill",
@@ -309,11 +309,11 @@
       "Marketing"
     ],
     "popularity": 71,
-    "createdAt": "2026-09-27T17:08:29.001Z",
-    "updatedAt": "2026-09-27T17:08:29.001Z"
+    "createdAt": "2026-10-08T01:05:09.820Z",
+    "updatedAt": "2026-10-08T01:05:09.820Z"
   },
   {
-    "_id": "9912qq6dmuk2okay",
+    "_id": "3d1nfe81muyu43i6",
     "name": "Clinical Research",
     "category": "Research",
     "description": "Clinical Research - an in-demand skill",
@@ -326,11 +326,11 @@
       "Biotech"
     ],
     "popularity": 74,
-    "createdAt": "2026-09-27T17:08:29.002Z",
-    "updatedAt": "2026-09-27T17:08:29.002Z"
+    "createdAt": "2026-10-08T01:05:09.822Z",
+    "updatedAt": "2026-10-08T01:05:09.822Z"
   },
   {
-    "_id": "rkb1cye8muk2okb1",
+    "_id": "wnt0azqcmuyu43i7",
     "name": "Scientific Writing",
     "category": "Research",
     "description": "Scientific Writing - an in-demand skill",
@@ -343,11 +343,11 @@
       "Publishing"
     ],
     "popularity": 77,
-    "createdAt": "2026-09-27T17:08:29.005Z",
-    "updatedAt": "2026-09-27T17:08:29.005Z"
+    "createdAt": "2026-10-08T01:05:09.823Z",
+    "updatedAt": "2026-10-08T01:05:09.823Z"
   },
   {
-    "_id": "jqugo6dqmuk2okb2",
+    "_id": "arrgjktlmuyu43i9",
     "name": "Community Medicine",
     "category": "Healthcare",
     "description": "Community Medicine - an in-demand skill",
@@ -360,11 +360,11 @@
       "Public Health"
     ],
     "popularity": 80,
-    "createdAt": "2026-09-27T17:08:29.006Z",
-    "updatedAt": "2026-09-27T17:08:29.006Z"
+    "createdAt": "2026-10-08T01:05:09.825Z",
+    "updatedAt": "2026-10-08T01:05:09.825Z"
   },
   {
-    "_id": "oms8m9rpmuk2okb4",
+    "_id": "u0nxiz7rmuyu43ib",
     "name": "Biostatistics",
     "category": "Analytics",
     "description": "Biostatistics - an in-demand skill",
@@ -377,11 +377,11 @@
       "Healthcare"
     ],
     "popularity": 83,
-    "createdAt": "2026-09-27T17:08:29.008Z",
-    "updatedAt": "2026-09-27T17:08:29.008Z"
+    "createdAt": "2026-10-08T01:05:09.827Z",
+    "updatedAt": "2026-10-08T01:05:09.827Z"
   },
   {
-    "_id": "s8qgkojfmuk2okb5",
+    "_id": "865ji1mcmuyu43ie",
     "name": "Entrepreneurship",
     "category": "Management",
     "description": "Entrepreneurship - an in-demand skill",
@@ -393,11 +393,11 @@
       "Startups"
     ],
     "popularity": 86,
-    "createdAt": "2026-09-27T17:08:29.009Z",
-    "updatedAt": "2026-09-27T17:08:29.009Z"
+    "createdAt": "2026-10-08T01:05:09.830Z",
+    "updatedAt": "2026-10-08T01:05:09.830Z"
   },
   {
-    "_id": "18e86i2umuk2okb6",
+    "_id": "l3v5m0v7muyu43ig",
     "name": "Financial Analysis",
     "category": "Finance",
     "description": "Financial Analysis - an in-demand skill",
@@ -410,7 +410,7 @@
       "Consulting"
     ],
     "popularity": 89,
-    "createdAt": "2026-09-27T17:08:29.010Z",
-    "updatedAt": "2026-09-27T17:08:29.010Z"
+    "createdAt": "2026-10-08T01:05:09.832Z",
+    "updatedAt": "2026-10-08T01:05:09.832Z"
   }
 ]

@@ -1,6 +1,6 @@
 [
   {
-    "_id": "1k4096aqmuk2okmo",
+    "_id": "5v3isgm5muyu43t3",
     "status": "Applied",
     "progress": 0,
     "feedback": "",
@@ -10,14 +10,14 @@
       "Herbal Medicine"
     ],
     "coverLetter": "I have 2 years of hands-on exposure in Ayurveda pharmacology and passion for herbal research.",
-    "internship": "y6g9c85gmuk2okmg",
-    "applicant": "t8lkfcp3muk2okb7",
+    "internship": "tknio9enmuyu43sg",
+    "applicant": "xig8yez8muyu43ih",
     "applicantType": "student",
-    "createdAt": "2026-09-27T17:08:29.424Z",
-    "updatedAt": "2026-09-27T17:08:29.424Z"
+    "createdAt": "2026-10-08T01:05:10.215Z",
+    "updatedAt": "2026-10-08T01:05:10.215Z"
   },
   {
-    "_id": "1jirwfrrmuk2okmo",
+    "_id": "kp2qgb4amuyu43t4",
     "status": "Shortlisted",
     "progress": 30,
     "feedback": "Strong technical background. Scheduling technical round.",
@@ -28,10 +28,10 @@
       "Machine Learning"
     ],
     "coverLetter": "Data analytics student with ML experience, eager to apply analytics in healthcare.",
-    "internship": "empewvkqmuk2okmi",
-    "applicant": "ds93ikd5muk2okd7",
+    "internship": "enguajc2muyu43si",
+    "applicant": "36g8kzhimuyu43ka",
     "applicantType": "student",
-    "createdAt": "2026-09-27T17:08:29.424Z",
-    "updatedAt": "2026-09-27T17:08:29.424Z"
+    "createdAt": "2026-10-08T01:05:10.216Z",
+    "updatedAt": "2026-10-08T01:05:10.216Z"
   }
 ]

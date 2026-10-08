@@ -1,13 +1,13 @@
 [
   {
-    "_id": "x493jllfmuk2okmk",
+    "_id": "ktbj9kqmmuyu43ss",
     "status": "Open",
     "enrolledStudents": [],
     "skillsCovered": [
       "Ayurveda Pharmacology",
       "Herbal Medicine"
     ],
-    "company": "gghaevolmuk2okgv",
+    "company": "5a0uzfp5muyu43ng",
     "companyName": "Himalaya Wellness",
     "title": "Certification in Ayurvedic Product Development",
     "type": "Certification Course",
@@ -15,18 +15,18 @@
     "duration": "8 weeks",
     "cost": "Free",
     "maxSeats": 200,
-    "createdAt": "2026-09-27T17:08:29.420Z",
-    "updatedAt": "2026-09-27T17:08:29.420Z"
+    "createdAt": "2026-10-08T01:05:10.204Z",
+    "updatedAt": "2026-10-08T01:05:10.204Z"
   },
   {
-    "_id": "22dx5yzwmuk2okmk",
+    "_id": "ufvxblsdmuyu43su",
     "status": "Open",
     "enrolledStudents": [],
     "skillsCovered": [
       "Dravya Guna (Herbal Properties)",
       "Ayurveda Pharmacology"
     ],
-    "company": "n1fstyn6muk2okiq",
+    "company": "7zcggnwwmuyu43oz",
     "companyName": "Patanjali Ayurved",
     "title": "Workshop: Pharmacognosy & Herb Quality Testing",
     "type": "Workshop",
@@ -34,18 +34,18 @@
     "duration": "1 week",
     "cost": "Free",
     "maxSeats": 150,
-    "createdAt": "2026-09-27T17:08:29.420Z",
-    "updatedAt": "2026-09-27T17:08:29.420Z"
+    "createdAt": "2026-10-08T01:05:10.206Z",
+    "updatedAt": "2026-10-08T01:05:10.206Z"
   },
   {
-    "_id": "ew1mnuqemuk2okml",
+    "_id": "c7mpub9omuyu43sv",
     "status": "Open",
     "enrolledStudents": [],
     "skillsCovered": [
       "Data Analytics",
       "Machine Learning"
     ],
-    "company": "gghaevolmuk2okgv",
+    "company": "5a0uzfp5muyu43ng",
     "companyName": "Himalaya Wellness",
     "title": "Mentorship Initiative: Careers in Healthcare Analytics",
     "type": "Mentorship Initiative",
@@ -53,7 +53,7 @@
     "duration": "4 weeks",
     "cost": "Free",
     "maxSeats": 50,
-    "createdAt": "2026-09-27T17:08:29.421Z",
-    "updatedAt": "2026-09-27T17:08:29.421Z"
+    "createdAt": "2026-10-08T01:05:10.207Z",
+    "updatedAt": "2026-10-08T01:05:10.207Z"
   }
 ]

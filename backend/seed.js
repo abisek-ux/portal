@@ -1,7 +1,10 @@
 import {
   User, Skill, Internship, LearningProgram, Collaboration, Application,
-  resetCollections,
+  resetCollections, connectDB, disconnectDB,
 } from './src/db.js';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const skillCatalog = [
   { name: 'Python', category: 'Technical', roles: ['Software Developer', 'Data Scientist', 'AI Engineer'], industries: ['IT Services', 'Fintech', 'Healthcare'] },
@@ -32,7 +35,8 @@ const skillCatalog = [
 
 const run = async () => {
   try {
-    resetCollections('users', 'skills', 'internships', 'programs', 'collaborations', 'applications');
+    if (process.env.DB_MODE === 'mongo') await connectDB();
+    await resetCollections('users', 'skills', 'internships', 'programs', 'collaborations', 'applications');
     console.log('Data reset. Rebuilding fresh...');
 
     console.log('Seeding skills...');
@@ -302,6 +306,7 @@ const run = async () => {
     console.log('  admin@demo.com / admin123');
 
     console.log('Seed complete!');
+    if (process.env.DB_MODE === 'mongo') await disconnectDB();
   } catch (error) {
     console.error('Seed error:', error);
     process.exit(1);

@@ -12,6 +12,7 @@ import portfolioRoutes from './routes/portfolio.routes.js';
 import programRoutes from './routes/programs.routes.js';
 import collaborationRoutes from './routes/collaborations.routes.js';
 import dashboardRoutes from './routes/dashboard.routes.js';
+import { connectDB, disconnectDB } from './src/db.js';
 
 import dotenv from 'dotenv';
 dotenv.config();
@@ -50,6 +51,22 @@ app.get('/', (req, res) => {
 app.use((req, res) => res.status(404).json({ message: 'Route not found' }));
 
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
+
+const start = () => {
+  app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+  });
+};
+
+if (process.env.DB_MODE === 'mongo') {
+  connectDB()
+    .then(start)
+    .catch((err) => {
+      console.error('MongoDB connection failed:', err.message);
+      console.error('Startup aborted. Set DB_MODE=json in backend/.env to run without MongoDB.');
+      process.exit(1);
+    });
+  process.on('exit', disconnectDB);
+} else {
+  start();
+}

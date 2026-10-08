@@ -1,13 +1,13 @@
 [
   {
-    "_id": "y6g9c85gmuk2okmg",
+    "_id": "tknio9enmuyu43sg",
     "status": "Open",
     "isInternshipForAcademician": false,
     "applicationsCount": 0,
     "preferredSkills": [
       "Dravya Guna (Herbal Properties)"
     ],
-    "company": "gghaevolmuk2okgv",
+    "company": "5a0uzfp5muyu43ng",
     "companyName": "Himalaya Wellness",
     "title": "Ayurveda Research Intern",
     "type": "Internship",
@@ -22,11 +22,11 @@
     "location": "Bengaluru",
     "mode": "Hybrid",
     "seats": 3,
-    "createdAt": "2026-09-27T17:08:29.417Z",
-    "updatedAt": "2026-09-27T17:08:29.417Z"
+    "createdAt": "2026-10-08T01:05:10.192Z",
+    "updatedAt": "2026-10-08T01:05:10.192Z"
   },
   {
-    "_id": "empewvkqmuk2okmi",
+    "_id": "enguajc2muyu43si",
     "status": "Open",
     "isInternshipForAcademician": false,
     "applicationsCount": 0,
@@ -34,7 +34,7 @@
       "Python",
       "Biostatistics"
     ],
-    "company": "gghaevolmuk2okgv",
+    "company": "5a0uzfp5muyu43ng",
     "companyName": "Himalaya Wellness",
     "title": "Data Analytics Intern - Healthcare",
     "type": "Internship",
@@ -48,16 +48,16 @@
     "location": "Remote",
     "mode": "Remote",
     "seats": 2,
-    "createdAt": "2026-09-27T17:08:29.418Z",
-    "updatedAt": "2026-09-27T17:08:29.418Z"
+    "createdAt": "2026-10-08T01:05:10.194Z",
+    "updatedAt": "2026-10-08T01:05:10.194Z"
   },
   {
-    "_id": "v8e80iejmuk2okmi",
+    "_id": "4snzwsb3muyu43sk",
     "status": "Open",
     "isInternshipForAcademician": false,
     "applicationsCount": 0,
     "preferredSkills": [],
-    "company": "n1fstyn6muk2okiq",
+    "company": "7zcggnwwmuyu43oz",
     "companyName": "Patanjali Ayurved",
     "title": "Herbal Quality Control Trainee",
     "type": "Apprenticeship",
@@ -72,18 +72,18 @@
     "location": "Haridwar",
     "mode": "On-site",
     "seats": 5,
-    "createdAt": "2026-09-27T17:08:29.418Z",
-    "updatedAt": "2026-09-27T17:08:29.418Z"
+    "createdAt": "2026-10-08T01:05:10.196Z",
+    "updatedAt": "2026-10-08T01:05:10.196Z"
   },
   {
-    "_id": "st0jj39hmuk2okmj",
+    "_id": "efklpi2lmuyu43sp",
     "status": "Open",
     "isInternshipForAcademician": true,
     "applicationsCount": 0,
     "preferredSkills": [
       "Clinical Research"
     ],
-    "company": "n1fstyn6muk2okiq",
+    "company": "7zcggnwwmuyu43oz",
     "companyName": "Patanjali Ayurved",
     "title": "Faculty Industrial Training - Dravyaguna",
     "type": "Internship",
@@ -98,7 +98,7 @@
     "mode": "On-site",
     "academicProgramType": "FDP",
     "seats": 10,
-    "createdAt": "2026-09-27T17:08:29.419Z",
-    "updatedAt": "2026-09-27T17:08:29.419Z"
+    "createdAt": "2026-10-08T01:05:10.201Z",
+    "updatedAt": "2026-10-08T01:05:10.201Z"
   }
 ]

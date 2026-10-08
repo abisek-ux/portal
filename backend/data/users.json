@@ -1,6 +1,6 @@
 [
   {
-    "_id": "t8lkfcp3muk2okb7",
+    "_id": "xig8yez8muyu43ih",
     "skills": [
       {
         "name": "Ayurveda Pharmacology",
@@ -28,17 +28,17 @@
     "location": "Jaipur, Rajasthan",
     "name": "Arjun Sharma",
     "email": "student@demo.com",
-    "password": "$2a$10$zu.vhlIdeoABNQtWjIXZ5u6oSXUcfLrn/AMDYu.XQrJr.8uyr4w5C",
+    "password": "$2a$10$JWCbF3KL68t6UEdahfkjG.59XY2RZ4apKA1A9qdk/0wwvY7YhJRfG",
     "role": "student",
     "college": "National Institute of Ayurveda",
     "branch": "BAMS",
     "degree": "Bachelor of Ayurvedic Medicine",
     "year": "3rd Year",
-    "createdAt": "2026-09-27T17:08:29.011Z",
-    "updatedAt": "2026-09-27T17:08:29.011Z"
+    "createdAt": "2026-10-08T01:05:09.833Z",
+    "updatedAt": "2026-10-08T01:05:09.833Z"
   },
   {
-    "_id": "ds93ikd5muk2okd7",
+    "_id": "36g8kzhimuyu43ka",
     "skills": [
       {
         "name": "Python",
@@ -66,17 +66,17 @@
     "location": "Kochi, Kerala",
     "name": "Priya Nair",
     "email": "student2@demo.com",
-    "password": "$2a$10$vSty1O52f0IPurGw2Mm43eaGZ/l1UHU.vrYbFBgQJfxcJPS/TgE0m",
+    "password": "$2a$10$w7dSb1roIFd.2Vw7Bw5df.C6fOXTkjy7lgXA.Yf.aju8wdSMoAn2S",
     "role": "student",
     "college": "St. Xavier College",
     "branch": "Computer Science",
     "degree": "B.Tech",
     "year": "Final Year",
-    "createdAt": "2026-09-27T17:08:29.083Z",
-    "updatedAt": "2026-09-27T17:08:29.083Z"
+    "createdAt": "2026-10-08T01:05:09.898Z",
+    "updatedAt": "2026-10-08T01:05:09.898Z"
   },
   {
-    "_id": "r19hxlepmuk2okf1",
+    "_id": "5vmnb2o8muyu43lu",
     "skills": [],
     "interests": [],
     "profileProgress": 0,
@@ -84,7 +84,7 @@
     "location": "New Delhi",
     "name": "Dr. Meena Joshi",
     "email": "faculty@demo.com",
-    "password": "$2a$10$pcF8HwFLd9Kg6YuHzGRsKOkzg3p/gZZ.SGDcIQZTPdj388ldG8492",
+    "password": "$2a$10$srR9.mZNlvQ45uDXssvWPO43NnGYdQOkYv62f/73imrFMrZHtaj9W",
     "role": "academician",
     "institution": "All India Institute of Ayurveda",
     "facultyDepartment": "Dravyaguna Vigyan",
@@ -94,11 +94,11 @@
       "Herbal Medicine",
       "Clinical Research"
     ],
-    "createdAt": "2026-09-27T17:08:29.149Z",
-    "updatedAt": "2026-09-27T17:08:29.149Z"
+    "createdAt": "2026-10-08T01:05:09.954Z",
+    "updatedAt": "2026-10-08T01:05:09.954Z"
   },
   {
-    "_id": "gghaevolmuk2okgv",
+    "_id": "5a0uzfp5muyu43ng",
     "skills": [],
     "interests": [],
     "profileProgress": 0,
@@ -106,17 +106,17 @@
     "location": "Bengaluru, Karnataka",
     "name": "Himalaya Wellness",
     "email": "industry@demo.com",
-    "password": "$2a$10$DqjSZMxrkW6SmIDD/KuBJeRWTkG/AVeKb6JfLk3w5jJnqUD6Y4liW",
+    "password": "$2a$10$NYacE5L1IH17WM4XeNNRYe8w.c0vCsguRacsbRy8OmOsvvDLWkJrK",
     "role": "industry",
     "company": "Himalaya Wellness",
     "industrySector": "Pharmaceuticals",
     "description": "Herbal healthcare company focused on Ayurveda-based wellness products.",
     "website": "https://himalayawellness.in",
-    "createdAt": "2026-09-27T17:08:29.216Z",
-    "updatedAt": "2026-09-27T17:08:29.216Z"
+    "createdAt": "2026-10-08T01:05:10.012Z",
+    "updatedAt": "2026-10-08T01:05:10.012Z"
   },
   {
-    "_id": "n1fstyn6muk2okiq",
+    "_id": "7zcggnwwmuyu43oz",
     "skills": [],
     "interests": [],
     "profileProgress": 0,
@@ -124,16 +124,16 @@
     "location": "Haridwar, Uttarakhand",
     "name": "Patanjali Ayurved",
     "email": "industry2@demo.com",
-    "password": "$2a$10$s9Exsgio5CUi1fdZu2Ce7u3mfbLjNvsPPkJun38QTSgkY5LSkTC.6",
+    "password": "$2a$10$cXfSz7sqrGUVWYc78RBrnOG59pCi4j8AOP1YNsA4nkMwK7Y0ubO3i",
     "role": "industry",
     "company": "Patanjali Ayurved",
     "industrySector": "Pharmaceuticals & FMCG",
     "description": "Ayurveda based FMCG and pharmaceutical company.",
-    "createdAt": "2026-09-27T17:08:29.282Z",
-    "updatedAt": "2026-09-27T17:08:29.282Z"
+    "createdAt": "2026-10-08T01:05:10.067Z",
+    "updatedAt": "2026-10-08T01:05:10.067Z"
   },
   {
-    "_id": "kwk2hil2muk2okkn",
+    "_id": "ulvn79e1muyu43qr",
     "skills": [],
     "interests": [],
     "profileProgress": 0,
@@ -141,10 +141,10 @@
     "location": "",
     "name": "System Admin",
     "email": "admin@demo.com",
-    "password": "$2a$10$X.OR1GsDyOmcXhSsQjkrCeXjHLnrcIghDU0SCrJxop1FlWmvKkmmi",
+    "password": "$2a$10$ZMilXJkGX1Vll/qW8BBIH.qEG7rNEO.X0VUQXKk0qsGXP8.lVcI0i",
     "role": "admin",
     "institution": "SkillBridge Platform",
-    "createdAt": "2026-09-27T17:08:29.351Z",
-    "updatedAt": "2026-09-27T17:08:29.351Z"
+    "createdAt": "2026-10-08T01:05:10.131Z",
+    "updatedAt": "2026-10-08T01:05:10.131Z"
   }
 ]

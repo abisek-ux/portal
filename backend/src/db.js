@@ -2,25 +2,170 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import bcrypt from 'bcryptjs';
+import mongoose from 'mongoose';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, '..', 'data');
+const mongoMode = process.env.DB_MODE === 'mongo';
 
-// ---------- file helpers ----------
+// ---------------------------------------------------------------
+// MongoDB connection (isolated to the DB name in MONGODB_URI, e.g. /skillbridge)
+// ---------------------------------------------------------------
+export const connectDB = async () => {
+  const uri = process.env.MONGODB_URI;
+  if (!uri) throw new Error('MONGODB_URI is missing in backend/.env');
+  await mongoose.connect(uri);
+  console.log(`MongoDB connected -> database: ${mongoose.connection.name}`);
+  mongoose.connection.on('error', (err) => console.error('MongoDB error:', err.message));
+};
+
+export const disconnectDB = async () => {
+  if (mongoose.connection.readyState) await mongoose.disconnect();
+};
+
+// ---------------------------------------------------------------
+// shared auth / response helpers (both modes)
+// ---------------------------------------------------------------
+export const hashPassword = async (plain) => {
+  const salt = await bcrypt.genSalt(10);
+  return bcrypt.hash(plain, salt);
+};
+export const matchPassword = (doc, plain) => bcrypt.compare(plain, doc.password);
+export const safe = (doc) => {
+  if (!doc) return null;
+  const { password, __v, ...rest } = doc;
+  return rest;
+};
+export const pick = (doc, select) => {
+  if (!select) return doc;
+  const fields = select.replace(/-/g, '').split(/[\s,]+/).filter(Boolean);
+  const out = {};
+  fields.forEach((f) => { if (f in doc) out[f] = doc[f]; });
+  return out;
+};
+
+// ---------------------------------------------------------------
+// Mongoose schemas (Mongo mode) — ISO field shapes, timestamps
+// ---------------------------------------------------------------
+const userSchema = new mongoose.Schema({
+  name: String,
+  email: { type: String, unique: true, lowercase: true },
+  password: String,
+  role: { type: String, enum: ['student', 'academician', 'industry', 'admin'], default: 'student' },
+  phone: { type: String, default: '' },
+  location: { type: String, default: '' },
+  college: String,
+  branch: String,
+  year: String,
+  degree: String,
+  facultyDepartment: String,
+  designation: String,
+  expertise: { type: [String], default: [] },
+  company: String,
+  industrySector: String,
+  description: String,
+  website: String,
+  institution: String,
+  skills: { type: [{ name: String, level: String, years: Number }], default: [] },
+  interests: { type: [String], default: [] },
+  resumeUrl: { type: String, default: '' },
+  profileProgress: { type: Number, default: 0 },
+}, { timestamps: true });
+
+const skillSchema = new mongoose.Schema({
+  name: String,
+  category: String,
+  description: String,
+  relatedRoles: { type: [String], default: [] },
+  relatedIndustries: { type: [String], default: [] },
+  popularity: { type: Number, default: 0 },
+}, { timestamps: true });
+
+const internshipSchema = new mongoose.Schema({
+  company: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
+  companyName: String,
+  title: String,
+  type: { type: String, default: 'Internship' },
+  description: String,
+  category: String,
+  requiredSkills: { type: [String], default: [] },
+  preferredSkills: { type: [String], default: [] },
+  stipend: String,
+  duration: String,
+  location: String,
+  mode: String,
+  seats: { type: Number, default: 1 },
+  isInternshipForAcademician: { type: Boolean, default: false },
+  academicProgramType: String,
+  applicationsCount: { type: Number, default: 0 },
+  status: { type: String, default: 'Open' },
+  deadline: String,
+}, { timestamps: true });
+
+const applicationSchema = new mongoose.Schema({
+  internship: { type: mongoose.Schema.Types.ObjectId, ref: 'Internship', required: true },
+  applicant: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
+  applicantType: { type: String, default: '' },
+  coverLetter: { type: String, default: '' },
+  relevantSkills: { type: [String], default: [] },
+  status: { type: String, default: 'Applied' },
+  progress: { type: Number, default: 0 },
+  feedback: { type: String, default: '' },
+  rating: { type: Number, default: 0 },
+  completionDate: String,
+}, { timestamps: true });
+applicationSchema.index({ internship: 1, applicant: 1 }, { unique: true });
+
+const programSchema = new mongoose.Schema({
+  company: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
+  companyName: String,
+  title: String,
+  type: String,
+  description: String,
+  skillsCovered: { type: [String], default: [] },
+  duration: String,
+  cost: String,
+  maxSeats: { type: Number, default: 0 },
+  enrolledStudents: { type: [mongoose.Schema.Types.ObjectId], ref: 'User', default: [] },
+  status: { type: String, default: 'Open' },
+}, { timestamps: true });
+
+const collaborationSchema = new mongoose.Schema({
+  title: String,
+  type: String,
+  description: String,
+  proposedBy: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
+  proposerName: String,
+  proposerRole: String,
+  industryDept: String,
+  status: { type: String, default: 'Proposed' },
+  startDate: { type: String, default: null },
+  participants: { type: [mongoose.Schema.Types.ObjectId], ref: 'User', default: [] },
+}, { timestamps: true });
+
+const Models = {
+  users: mongoose.model('User', userSchema),
+  skills: mongoose.model('Skill', skillSchema),
+  internships: mongoose.model('Internship', internshipSchema),
+  applications: mongoose.model('Application', applicationSchema),
+  programs: mongoose.model('LearningProgram', programSchema),
+  collaborations: mongoose.model('Collaboration', collaborationSchema),
+};
+
+// ---------------------------------------------------------------
+// JSON file storage (Json mode)
+// ---------------------------------------------------------------
 const ensure = (name) => {
   if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
   const file = path.join(DATA_DIR, `${name}.json`);
   if (!fs.existsSync(file)) fs.writeFileSync(file, '[]', 'utf-8');
   return file;
 };
-
 const readAll = (name) => JSON.parse(fs.readFileSync(ensure(name), 'utf-8'));
 const writeAll = (name, arr) => fs.writeFileSync(ensure(name), JSON.stringify(arr, null, 2), 'utf-8');
-
 const genId = () => Math.random().toString(36).substring(2, 10) + Date.now().toString(36);
 const now = () => new Date().toISOString();
 
-// ---------- query matching ----------
 const match = (doc, filter) => {
   if (!filter) return true;
   for (const [k, v] of Object.entries(filter)) {
@@ -57,16 +202,45 @@ const cmp = (a, b) => {
   return new Date(x) - new Date(y);
 };
 
-const pick = (doc, select) => {
-  if (!select) return doc;
-  const fields = select.replace(/-/g, '').split(/[\s,]+/).filter(Boolean);
-  const out = {};
-  fields.forEach((f) => { if (f in doc) out[f] = doc[f]; });
-  return out;
+const mongoCollection = (name, options = {}) => {
+  const Model = Models[name];
+  return {
+    async find(filter = {}, { sort, limit, select } = {}) {
+      let q = Model.find(filter);
+      if (sort) q = q.sort(sort);
+      if (limit) q = q.limit(limit);
+      if (select) q = q.select(select);
+      return (await q.lean()).map((d) => ({ ...(options.defaults || {}), ...d }));
+    },
+    async findOne(filter = {}) {
+      const d = await Model.findOne(filter).lean();
+      return d ? { ...(options.defaults || {}), ...d } : null;
+    },
+    async findById(id) {
+      return Model.findById(id) || null;
+    },
+    async create(doc) {
+      const d = { ...(options.defaults || {}), ...doc };
+      if (options.beforeCreate) await options.beforeCreate(d);
+      return Model.create(d);
+    },
+    async save(doc) {
+      if (options.beforeSave) await options.beforeSave(doc);
+      return doc.save();
+    },
+    async countDocuments(filter = {}) {
+      return Model.countDocuments(filter);
+    },
+    async distinct(field, filter = {}) {
+      return Model.distinct(field, filter);
+    },
+    async reset() {
+      await Model.deleteMany({});
+    },
+  };
 };
 
-// ---------- collection factory ----------
-export const collection = (name, options = {}) => ({
+const jsonCollection = (name, options = {}) => ({
   async find(filter = {}, { sort, limit, select } = {}) {
     let arr = readAll(name).filter((d) => match(d, filter));
     if (options.defaults) arr = arr.map((d) => ({ ...options.defaults, ...d }));
@@ -110,22 +284,16 @@ export const collection = (name, options = {}) => ({
   async distinct(field, filter = {}) {
     return [...new Set(readAll(name).filter((d) => match(d, filter)).map((d) => d[field]))];
   },
-  reset() {
+  async reset() {
     writeAll(name, []);
   },
 });
 
-// ---------- auth helpers ----------
-export const hashPassword = async (plain) => {
-  const salt = await bcrypt.genSalt(10);
-  return bcrypt.hash(plain, salt);
-};
-export const matchPassword = (doc, plain) => bcrypt.compare(plain, doc.password);
-export const safe = (doc) => {
-  if (!doc) return null;
-  const { password, __v, ...rest } = doc;
-  return rest;
-};
+// ---------------------------------------------------------------
+// collection factory (routes use the same API in both modes)
+// ---------------------------------------------------------------
+export const collection = (name, options = {}) =>
+  mongoMode ? mongoCollection(name, options) : jsonCollection(name, options);
 
 // ---------- populate helper ----------
 export const populate = async (arr, specs) => {
@@ -169,4 +337,6 @@ export const Collaboration = collection('collaborations', {
   defaults: { status: 'Proposed', participants: [], startDate: null },
 });
 
-export const resetCollections = (...names) => names.forEach((n) => collection(n).reset());
+export const resetCollections = async (...names) => {
+  for (const n of names) await collection(n).reset();
+};
